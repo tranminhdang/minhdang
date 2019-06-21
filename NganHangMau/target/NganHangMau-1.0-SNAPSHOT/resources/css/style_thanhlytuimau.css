@@ -1,0 +1,130 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(236, 237, 240)
+}
+.navbar{
+    background-color: #007BFF;
+    padding: 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: rgb(99, 216, 21); 
+}
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown:hover .nav-link{
+    background-color: rgb(99, 216, 21);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d1d1d1;
+    color: black;
+    width: max-content;
+    margin-top: 0.5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 8px 16px;
+    padding-top: 18px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+.dropdown-content p:hover{
+    color: #0040ff;
+    background-color: #d1d1d1;
+    border-bottom: 1px solid #0040ff;
+}
+.div-form{
+    margin-top: 55px;
+    font-size: 12px;
+    width: 100%;
+}
+.col-label{
+    width: 47%;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.col-inp{
+    width: 53%;
+    padding-right: 8px;
+}
+.col-label-2{
+    width: 25%;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.col-input-2{
+    width: 75%;
+    padding-right: 15px;
+}
+.col-input-seri{
+    width: 50%;
+    float: left;
+}
+.col-label-2 label{
+    margin-bottom: 0rem;
+}
+.col-input-2 textarea{
+    height: 73px;
+}
+.form-control {
+    height: 35px;
+    font-size: 12px;
+    padding: 6px;
+    color: black;
+}
+.form-group {
+    margin-bottom: 3px;
+}
+.header-table{
+    width: 98.7%;
+}
+.body-table{
+    margin-top: -17px;
+}
+.th-stt, .td-stt{
+    width: 38px;
+}
+.table thead th {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    background-color: #007BFF;
+    color: white;
+    white-space: normal;
+    max-width: 0;
+    padding: 5px;
+    font-size: 14px;
+}
+.table td{
+    padding: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.table ,tr td{
+    border:1px solid #dee2e6;
+}
+tbody {
+    display:block;
+    max-height: 288px;
+    overflow-y:scroll;
+    background-color: white;
+}
+tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+#tb_sl, #tb_sp{
+    color: red;
+}
